@@ -6,19 +6,19 @@ FROM python:3.9.6
 ENV PYTHONUNBUFFERED 1
 
 # Get my answer example app
-RUN git clone https://github.com/gothinkster/django-realworld-example-app.git /drf_src
+RUN git clone https://github.com/onurbaskin/code-challenge-may30.git /colorifix
 
-# Set the working directory to /drf
+# Set the working directory to /colorifix
 # NOTE: all the directives that follow in the Dockerfile will be executed in
 # that directory.
-WORKDIR /drf_src
+WORKDIR /colorifix
 
 RUN ls .
 
 # Install any needed packages specified in requirements.txt
 RUN pip install -r requirements.txt
 
-VOLUME /drf_src
+VOLUME /colorifix
 
 EXPOSE 8080
 
