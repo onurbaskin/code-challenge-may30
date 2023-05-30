@@ -1,0 +1,11 @@
+,UserName,PermissionGroupName,PermissionNameDescription,ResourceName,AccessLevelName,CompanyName
+0,admin@my-company.com,Admin,Add Companies,Company,Add,My Company
+1,admin@my-company.com,Admin,Add Users,Users,Add,My Company
+2,admin@my-company.com,Admin,Edit Companies,Companies,Edit,My Company
+3,admin@my-company.com,Admin,Edit Users,Users,Edit,My Company
+4,admin@my-company.com,Admin,Delete Companies,Companies,Delete,My Company
+5,admin@my-company.com,Admin,Delete Users,Users,Delete,My Company
+6,admin@my-company.com,Admin,View Companies,Companies,View,My Company
+7,admin@my-company.com,Admin,View Users,Users,View,My Company
+8,user@my-company.com,User,Vew Companies,Companies,View,My Company
+9,user@my-company.com,User,View Users,User,View,My Company
